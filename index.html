@@ -9,14 +9,16 @@
 </head>
 <body>
     <div class="date">
-        <p id="date-el"></p>
+        <p id="time-el">Time: </p>
+        <p id="date-el">Date: </p>
     </div>
     <h1>People entered: </h1>
     <h2 id="count-el">0</h2>
     
     <button id="increment-btn" onclick="increment()">INCREMENT</button>
     <button id="save-btn" onclick="save()">SAVE</button>
-    <p>Previous entries: </p>
+    <p id="save-el">Previous entries: </p>
+    <button id="reset-btn" onclick="reset()">CLEAR PREVIOUS ENTRIES</button>
     <script src="./app.js"></script>
 </body>
 </html>

@@ -36,11 +36,28 @@ button {
     margin: 0 auto;
     margin-bottom: 5px;
 }
+button:hover{
+    border: 2px solid white;
+}
 
 #increment-btn {
-    background: darkred;
+    background: red;
 }
 
 #save-btn {
-    background: darkgreen;
+    background: green;
 }
+#reset-btn {
+    background: blueviolet;
+}
+/* #save-el{
+   
+    border-radius: 5px;
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+    height: 40px;
+    text-align: center;
+    margin-bottom: 5px;
+    background: rgb(71, 71, 71);
+} */
